@@ -19,7 +19,7 @@ export type PortfolioProject = {
 }
 
 export const heroContent: HeroContent = {
-  image: '/images/hero-glitch.jpg',
+  image: '/images/hero-lufy.jpg',
   kicker: 'AI Engineer',
   lead: 'I build full-stack products, AI tools and automations that save your time and actually get shipped.',
   ctaHref: '#contact',
