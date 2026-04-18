@@ -106,7 +106,10 @@ img {
 }
 
 #services {
-  padding-top: clamp(32px, 4vw, 48px);
+  padding-top: 0px !important;
+  margin-top: -60px !important;
+  position: relative;
+  z-index: 10;
 }
 
 .eyebrow {
