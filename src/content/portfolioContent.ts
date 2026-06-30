@@ -29,6 +29,36 @@ export const heroContent: HeroContent = {
 
 export const featuredProjects: PortfolioProject[] = [
   {
+    title: 'AI Tribunal',
+    category: 'Adversarial Legal RL Env',
+    tags: ['PyTorch', 'Gymnasium', 'Hugging Face', 'Python'],
+    description: 'A custom Gymnasium reinforcement learning environment to model multi-agent strategic interactions, hidden information, and deception detection.',
+    image: '/images/project-ai-tribunal.png',
+    url: 'https://huggingface.co/spaces/AbhishekKharat11/ai-tribunal-env',
+    ghost: 'RL',
+    linkLabel: 'View Hugging Face Space',
+  },
+  {
+    title: 'OrbitWatch',
+    category: 'Space Debris Tracking Agent',
+    tags: ['FastAPI', 'SGP4', 'OpenAI API', 'Redis', 'Python'],
+    description: 'A space situational awareness platform utilizing SGP4 orbital propagation algorithms to calculate real-time conjunction risk, featuring an OpenAI-powered natural-language briefing engine.',
+    image: '/images/project-orbitwatch.png',
+    url: 'https://orbitwatch-five.vercel.app',
+    ghost: 'AGENTS',
+    linkLabel: 'Visit live dashboard',
+  },
+  {
+    title: 'ShipSage',
+    category: 'AI-Assisted DevOps readiness',
+    tags: ['watsonx Granite', 'Docker', 'Kubernetes', 'Terraform', 'Python'],
+    description: 'A DevOps copilot that analyzes codebase structures and utilizes IBM watsonx Granite LLM to generate production-ready Dockerfiles, Kubernetes manifests, and infrastructure code.',
+    image: '/images/project-shipsage.png',
+    url: 'https://shipsage.onrender.com',
+    ghost: 'DEVOPS',
+    linkLabel: 'Visit live dashboard',
+  },
+  {
     title: 'Hood Reviews',
     category: 'Community product',
     tags: ['React', 'Firebase', 'Vercel'],
